@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>TheWoollySamurai - Profile Hub</title>
+</head>
+<body class="landing-page">
+    <div class="container">
+        <div class="profile-section">
+            <img src="profilepic/profilepic.jpg" alt="Profile" class="profile-image">
+            <h1 class="main-title">TheWoollySamurai</h1>
+        </div>
+
+        <nav class="nav-buttons">
+            <a href="./ebook.html" class="btn btn-primary">📚 Ebook</a>
+            <a href="./music.html" class="btn btn-primary">🎵 Music</a>
+            <a href="./art.html" class="btn btn-primary">🎨 Art</a>
+        </nav>
+
+        <div class="music-player-section">
+            <div class="player-controls">
+                <button id="play-btn" class="player-btn">▶ Play</button>
+                <button id="pause-btn" class="player-btn">II Pause</button>
+                <button id="next-btn" class="player-btn">>>> Next</button>
+            </div>
+            <div class="current-track">
+                <p id="track-name">No track loaded</p>
+            </div>
+            <audio id="music-player"></audio>
+        </div>
+
+        <a href="https://cash.app/$TheWoollySamurai" class="fixed-bottom-left" title="Support me!">+❤️</a>
+        <div class="fixed-bottom-right" title="Shopping Cart">🛒</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
