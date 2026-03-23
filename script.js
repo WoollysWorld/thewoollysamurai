@@ -157,7 +157,7 @@ if (productsGridContainer) {
 
         productCard.innerHTML = `
             <div class="product-image" style="position:relative;">
-                <img src="E-book/${ebookData.file}" alt="${ebookData.title}">
+                <img src="e-book/${ebookData.file}" alt="${ebookData.title}">
                 ${preorderOverlay}
             </div>
             <div class="product-info">
